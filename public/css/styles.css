@@ -1,0 +1,97 @@
+body , html {
+    height: 100%;
+    overflow: hidden;
+}
+*{
+    padding : 0 ;
+    margin : 0
+}
+
+body{
+    background-image: url("../assest/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size : cover;
+    height: 100%;
+}
+
+.mic-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50vh;
+}
+
+.talk {
+    border-radius: 50%;
+    border : none;
+    outline: none;
+}
+.talk:active{
+    border : none;
+    outline: none;
+}
+
+.talk:focus{
+    outline: none !important
+}
+
+.stop {
+    
+    border : none;
+    outline: none;
+}
+.stop:active{
+    border : none;
+    outline: none;
+}
+
+.stop:focus{
+    outline: none !important
+}
+.read-news {
+   
+    border : none;
+    outline: none;
+}
+.read-news:active{
+    border : none;
+    outline: none;
+}
+
+.read-news:focus{
+    outline: none !important
+}
+.talk:hover{
+    background-color: aqua;
+    color : #245580
+}
+.fa-microphone{
+    font-size: 55px;
+    padding: 20px;
+}
+.stop{
+    margin-left: 20px;
+}
+.read-news{
+    margin-right: 20px;
+}
+
+.example{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.example-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 30px;
+    font-weight: bold
+}
